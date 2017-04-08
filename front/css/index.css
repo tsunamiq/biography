@@ -1,0 +1,156 @@
+h1 {
+	font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	/*font-size: 30px;*/
+	
+	font-size:4vw;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 10px;
+	text-align: right;
+	padding-top:.8em;
+	padding-bottom:.8em;
+	color:  black;
+	background-color:none;
+	margin: 0 auto;
+}
+
+h2 {
+	font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	/*font-size: 8px;*/
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 2px;
+	font-size:2vw;
+	padding-bottom:.1em;
+	text-align: center;
+	
+	color:  black;
+}
+
+h3 {
+	font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	/*font-size: 8px;*/
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 2px;
+	font-size:1.5vw;
+		color:  black;	
+}
+
+
+
+p {
+	font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	font-size: 1.5vw;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 300;
+	line-height: 1.7vw;
+	color:  black;
+	text-align:left;
+}
+
+
+body{
+/*border-style: solid;*/
+margin-top:0;
+margin-left:20%;
+margin-right:20%;
+background-color: #FAFAFA;
+/*background-image: url("../img/cityocean.jpg");*/
+}
+
+
+.center{
+	text-align:center;
+}
+.image{
+	width: 90%;
+	height: ;
+	display:block;
+	margin:auto;
+}
+.border{
+	border-style:dotted;
+}
+
+.left{
+	width:4vw;
+	border-style: solid;
+	height:3vw;
+	float:left;
+}
+
+.right{
+	width:10vw;
+	height:3vw;
+	float:right;
+}
+
+
+
+#container{
+	
+	/*border-style:solid;*/
+	
+	
+
+}
+
+#column1{
+	width: 30vw;
+	height: 45vw;
+	vertical-align: top;
+	float:left;
+	/*border-style:solid;
+	border-width:1px;*/
+
+}
+#column2{
+	width: 30vw;
+	height: 45vw;
+	display:inline-block;
+	vertical-align: top;
+	float:right;
+	/*border-style:solid;
+	border-width:1px;*/
+	
+}
+#row{
+	width:62vw;
+	height:45vw;
+	/*border-style:solid;*/
+	margin: 0 auto;
+	
+}
+
+#wrap{
+	margin: auto;
+	width:20vw;
+	/*border-style:solid;*/
+	height:6vw;
+}
+
+#link{
+	word-wrap:break-word;
+	margin-left:10% ;
+	float:left;
+}
+
+	
+
+	body.after:: {
+  		content: "";
+ 		 background: url(biography/front/img/cityocean.jpg);
+  		opacity: 0.2;
+  		top: 0;
+  		left: 0;
+  		bottom: 0;
+  		right: 0;
+  		position: absolute;
+  		z-index: -1;   
+}
+
