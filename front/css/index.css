@@ -23,6 +23,7 @@ h2 {
 	font-weight: 500;
 	line-height: 2px;
 	font-size:2vw;
+	padding-bottom:.1em;
 	text-align: center;
 	
 	color:  black;
@@ -58,6 +59,8 @@ body{
 margin-top:0;
 margin-left:20%;
 margin-right:20%;
+background-color: #FAFAFA;
+/*background-image: url("../img/cityocean.jpg");*/
 }
 
 
@@ -135,5 +138,19 @@ margin-right:20%;
 	word-wrap:break-word;
 	margin-left:10% ;
 	float:left;
+}
+
+	
+
+	body.after:: {
+  		content: "";
+ 		 background: url(biography/front/img/cityocean.jpg);
+  		opacity: 0.2;
+  		top: 0;
+  		left: 0;
+  		bottom: 0;
+  		right: 0;
+  		position: absolute;
+  		z-index: -1;   
 }
 
